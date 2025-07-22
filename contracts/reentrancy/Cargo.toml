@@ -1,0 +1,12 @@
+[package]
+name = "reentrancy"
+version = "0.1.0"
+authors = ["stellark-dev"]
+edition = "2018"
+
+[dependencies]
+solana-program = "1.7.11"
+
+[lib]
+name = "reentrancy"
+crate-type = ["cdylib", "lib"]
